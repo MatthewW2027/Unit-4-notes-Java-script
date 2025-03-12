@@ -54,3 +54,36 @@ score = score * (-3);
 console.log(score); 
 score = score / 5; 
 console.log(score); 
+
+// STRING CONCATENATION (merging/combination) 
+// QUOTES indicate STRING LITERALS 
+let greeting = "hello" + "Friend"; 
+console.log(greeting);
+
+//Can combine string variables with string LITERALS 
+let username = "ct112120"; 
+greeting = "Welcome" + username + "!!!"; 
+console.log(greeting);
+
+//Watch out for STRING CONVERSIONS 
+console.log(4 + 5); // 9 (adds the numbers)
+console.log("4" + 5); // 45 (concatenate, not add) 
+console.log(4 + '5') // 45 (same as above!)
+
+/* FUNCTIONS:
+    Reusable sets of code statements that perform a specific task or process 
+*/ 
+
+// example of CALLING a function 
+console.log("heloooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo"); 
+
+// example of DECLARING (creating) a function 
+function flying() {
+    // 3 statements (steps/instructions)
+    console.log("1. battery and gpu")
+    console.log("2. MCDU")
+    console.log("3. engine start")
+}
+// To CALL (run) out function, say its name 
+flying();
+flying(); // repeated the steps again 
