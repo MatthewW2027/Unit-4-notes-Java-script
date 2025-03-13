@@ -87,3 +87,26 @@ function flying() {
 // To CALL (run) out function, say its name 
 flying();
 flying(); // repeated the steps again 
+
+/* Functions are like RECIPES!
+    relaiably perform the same set of actions for a consistent result. 
+    PARAMETERS (input) are like ingrediants. 
+    RETURN values (output) are like the completed meal a
+*/ 
+
+// Sandwich making exampl ofa function that requires PERAMETERS and RETURNS data 
+// (takes input provide, provides output)
+
+function makeSandwich(bread, filling, sauce) {
+    // function BODY (procedure steps)
+    let sandwich = filling + "sandwich with" + sauce + "on" + bread; 
+    return sandwich; 
+}
+// Call a function that RETURNS data 
+// store the output in a variable 
+let burger = makeSandwich("bun", "patty", "American Cheesse");
+console.log(burger);
+
+// TRY the function with different ARGUMENTS (input data)
+let grilledcheesse = makeSandwich("white bread", "American Cheesse", "Butter");
+console.log(grilledcheesse)
