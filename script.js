@@ -110,3 +110,22 @@ console.log(burger);
 // TRY the function with different ARGUMENTS (input data)
 let grilledcheesse = makeSandwich("white bread", "American Cheesse", "Butter");
 console.log(grilledcheesse)
+
+// *** Selection (CONDITIONALS) *** 
+// A Conditional expression is like a Question where a boolean (Ture/Flas) is the ANSWER
+
+// Conditions that include COMPARISON OPERATORS get EVALUATED and result in true/false 
+console.log(2 > 1); // true
+console.log(2 == 1);  // == means are they equal? 
+console.log( 2 != 1); // != means NOT equal 
+console.log(29035739805672093547129045802493 >= 356457);
+console.log( 45 <= 2);
+
+// ASSIGN a comparison result to a variable 
+let result = (5 > 4); 
+console.log(result); 
+
+// Comparing STRINGS (text) uses dictionary order 
+// TRUE  if letter is later in order 
+console.log("Z" > "A"); 
+console.log("Danny" == "Zach");
